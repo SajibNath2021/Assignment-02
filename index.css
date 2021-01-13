@@ -1,0 +1,37 @@
+.Logo img{
+    width: 291.11px;
+}
+ a.nav-link {
+    margin-left: 40px;
+}
+
+
+@media(min-width:778px){
+   .Meanu{
+    margin-left: 350px;
+}
+.container-fluid.Logo{
+    margin-left: 135px;
+}
+}
+/*end of nav*/
+.half-width img{
+    width: 407px;
+}
+.Walcome-page{
+    background-color: aqua!important;
+    height: 600px;
+}
+/*casualShoes*/
+.price-button{
+    display:flex;
+    border-top: 0;
+    background-color: white;
+}
+img.card-img-top {
+    background-color: aqua;
+}
+
+.img img{
+    width: 599px;
+}
