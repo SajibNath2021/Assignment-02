@@ -2,12 +2,7 @@
 body{
     width: 100%;
 }
-.Menue{
-    margin-left: 300px;
-    max-width: 90%;
-    margin: auto;
-    
-}
+
 
 @media(max-width:375px){
     body{
@@ -19,9 +14,7 @@ body{
         margin-left: 40px;
     }
     
-    .Meanu{
-        margin-left: 350px;
-    }
+    
 
 }
 .Walcome-page{
