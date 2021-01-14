@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="index.css">
     <title>Document</title>
     <script src="https://kit.fontawesome.com/e024d459eb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="Walcome-page">
-        <nav class="navbar navbar-expand-lg navbar-light ">
+    <header class="Walcome-page ">
+        <nav class="navbar navbar-expand-lg navbar-light pt-5 container">
             <div class="container-fluid Logo">
               <img src="icons/Logo.png" alt="">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,36 +21,46 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav Meanu">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Features</a>
-                  <a class="nav-link" href="#">Pricing</a>
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                  <a class="nav-link" href="#">Product</a>
+                  <a class="nav-link" href="#">About US</a>
+                  <a class="nav-link " href="#" >Connect US</a>
                 </div>
               </div>
             </div>
           </nav>
           <!--end of navbar-->
-          <section id="home" >
-              <div class="full-width d-flex justify-content-around  align-items-center">
-                  <div class="half-width">
-                    <img src="Photos/Group 33092.png" alt="">                      
+          <section id="home"  >
+            <div id="carouselExampleSlidesOnly" class="carousel slide mt-5" data-bs-ride="carousel">
+              <div class="carousel-inner container">
+                <div class="carousel-item active">
+                  <div class=" row d-flex align-items-center ">
+                     <div class="col-md-7 img">
+                    <img src="Photos/Group 33092.png" class="d-block w-100" alt="...">
                   </div>
-                  <div class="half-width">
-                      <h1> <span>Nike React</span><br>
-                        Infinity Run 2</h1>
-                      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                       <button class="btn btn-success"><i class="fas fa-shopping-cart"> BYE NOW</i> </button>
+                  <div class="col md-5 intro-text">
+                    <h1> <span>Nike React</span><br>
+                      Infinity Run 2</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                     <button class="btn"><i class="fas fa-shopping-cart"> BYE NOW</i> </button>
                   </div>
+                  </div>
+                 
+                </div>
+                
               </div>
+            </div>
 
           </section>
     </header>
     <!--end of header-->
-    <main>
-        <section class="CASUAL-SHOES container pt-5">
+                      
+                  
+    <main class="container">
+        <section id="CASUAL-SHOES" class="mt-5">
             <h1>CASUAL SHOES</h1>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
-                  <div class="card h-100">
+                  <div class="card h-100 img-shoes">
                     <img src="Photos/image 5.png" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>

@@ -5,23 +5,50 @@
     margin-left: 40px;
 }
 
-
-@media(min-width:778px){
-   .Meanu{
-    margin-left: 350px;
+@media(min-width:992px){
+    .Meanu{
+        margin-left: 147px;
+    }
+    .container-fluid.Logo{
+        margin-left: 135px;
+    }
 }
+@media(min-width:1440px){
+    .Meanu{
+        margin-left: 350px;
+    }
 .container-fluid.Logo{
     margin-left: 135px;
 }
 }
+
 /*end of nav*/
-.half-width img{
-    width: 407px;
+.img img{
+    width: 407px!important;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+}
+span{
+    color: #FA804C;
+}
+.intro-text{
+    width: 400px;
+}
+button.btn{
+    background:linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    color: white;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
 }
 .Walcome-page{
-    background-color: aqua!important;
-    height: 600px;
+    background-color: #fff9f9;
+    height: 700px;
 }
+
+
 /*casualShoes*/
 .price-button{
     display:flex;
